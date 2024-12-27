@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group The Form Fields</title>
+    <link href="style.css" rel="style" type="text/css" />
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>personal information</legend>
+        <label>full name</label>
+        <!--placeholder attribute can be use to provide extra infromation about entry to be made-->
+        <input type="text" id="fname" placeholder="enter name" /><br /><br />
+        <label>email</label>
+        <input type="text" id="email" placeholder="enter email" /><br /><br />
+        <label>gender</label>
+        <input type="radio" id="gender" value="Female" />Female<br />
+        <input type="radio" id="gender" value="Male" />Male<br />
+        <label>brithday</label>
+        <input type="date" id="brithday" name="brithday" /><br /><br />
+      </fieldset>
+    </form>
+  </body>
+</html>
